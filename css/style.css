@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    font-family: 'Quicksand', Courier, monospace;
+}
+
+body {
+    margin: 0;
 }
 
 ul {
@@ -76,11 +81,12 @@ ul li.checked::before {
 input {
     margin: 0;
     border: none;
-    border-radius: 0;
-    width: 75%;
+    border-radius: 5px;
+    width: 70%;
     padding: 10px;
     float: left;
     font-size: 16px;
+    margin-right: 5px;
 }
 
 #addButton {
@@ -93,9 +99,13 @@ input {
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius: 5px;
 }
 
 #addButton:hover {
     background-color: #bbb;
+}
+
+#content {
+    border-radius: 5px;
 }
